@@ -1,0 +1,257 @@
+
+hr{
+    background-color:#68001cb4;
+    ;
+}
+
+body .container-fluid {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 0% 0%;
+    margin: 0% 0%!important;
+    max-height: max-content;
+}
+
+.index-headings h1, h2, h3, h4 {
+    color: rgb(85, 174, 185);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 0% 0%!important;
+    padding: 0% 0%;
+    opacity: none;
+    height: max-content;
+}
+
+.index-headings h5{
+    color: rgb(85, 174, 185) ;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 0% 0%!important;
+    padding: 0% 0%;
+    opacity: none;
+}
+
+.portfolio-headings h1, h2, h3, h4 {
+    color: #68001cb4;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 0% 0%!important;
+    padding: 0% 0%;
+    opacity: none;
+}
+
+.portfolio-headings h5{
+    color: #68001cb4;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 0% 0%!important;
+    padding: 0% 0%;
+    opacity: none;
+}
+
+.contact-headings h1, h2, h3, h4 {
+    color: #68001cb4;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 0% 0%!important;
+    padding: 0% 0%;
+    opacity: none;
+}
+
+.contact-headings h5{
+    color: #68001cb4;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 0% 0%!important;
+    padding: 0% 0%;
+    opacity: none;
+}
+
+
+
+p {
+    color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: .5rem 0rem 0rem 0rem!important;
+    text-align: left;
+}
+
+.navbar-brand{
+    padding: 10px 15px!important;
+}
+
+
+a:hover {
+    text-decoration-line: none!important;
+}
+
+/* Navigation Bar */
+
+.navbar {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 0% 0%;
+    margin: 0% 0%;
+    border-bottom: .3rem solid palegoldenrod;
+}
+
+.navbar-toggler{
+    width: max-content!important;
+    height:  max-content!important;
+    
+    text-align: center;
+    padding: auto 0px!important;
+}
+
+.navbar-toggler-icon{
+    margin: auto auto;
+    text-align: center;
+    display: inline-block;
+    width: 1.5em;
+    height: 2.5em;
+    vertical-align: middle;
+    content: "";
+    background: no-repeat center center;
+    background-size: 100% 100%;
+}
+
+
+a h5:hover {
+    color: rgb(221, 205, 164)!important;
+    transition: color 0.4s ease 0s!important;
+    transition-duration: 0.4s!important;
+    transition-delay: 0s!important;
+}
+
+/* Background Images */
+
+.col-lg-12 {
+    padding: 1rem 1rem;
+    margin: auto auto;
+}
+
+.index-content-header{
+    text-align: center;
+}
+
+.index-body-background{
+    background-image: url("Assets/Images/white-flowers.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+.portfolio-body-background{
+    background-image: url("Assets/Images/pink-flowers.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+.index-text-background{
+    background-color: white;
+    border: .2rem solid palegoldenrod;
+    margin: auto auto;
+    height: max-content;
+}
+
+.index-text-background-border-image{
+    background-image:url("Assets/Images/pink-roses.jpg");
+    background-position: bottom;
+    border: .4rem solid palegoldenrod;
+    margin: 7rem 5rem;
+    background-size: 50%;
+    flex: 0 100%!important;
+    padding:2rem 2rem!important;
+}
+
+.portfolio-text-background-border-image{
+    background-image:url("Assets/Images/white-roses.jpg");
+    background-position: bottom;
+    border: .4rem solid palegoldenrod;
+    margin: 10rem 5rem;
+    background-size: 50%;
+    flex: 0 100%!important;
+    padding:2rem 2rem!important;
+}
+
+.image-placeholder{
+    height: 350px!important;
+    width: 350px!important;
+    margin: 1rem auto 1rem auto;
+}
+/* Portfolio */
+
+.portfolio-text-background{
+    background-color: white;
+    border: .2rem solid palegoldenrod;
+    margin: auto auto;
+    height: max-content;
+}
+
+.portfolio-content-header{
+    text-align: center;
+}
+
+/* About me */
+.profile-image{
+    height: 350px;
+    width: 300px;
+    float: left;
+    padding: 0rem .5rem .5rem 0rem;
+}
+
+/* Contact */
+
+.contact-body-background{
+    background-image: url("Assets/Images/single-white-rose.jpg");
+    background-size: 50%;
+    text-align: center;
+    height: max-content;
+}
+
+.contact-content-container{
+    background-color: transparent;
+    border: .2rem solid palegoldenrod;
+    height: max-content;
+    margin: 5rem;
+}
+
+.contact-header{
+    color: white!important;
+    text-shadow: 2px 2px 2px #68001cb4;
+}
+
+.contact-hr{
+    background-color: white!important;
+}
+
+.contact-input-box{
+    border: palegoldenrod solid 2px;
+}
+
+.contact-send-button{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color:none;
+    color: #68001cb4;
+    border: #68001cb4 solid 2px;
+    width: 5rem;
+    height: 2em;
+}
+
+.contact-send-button:hover{
+    background-color:#68001cb4;
+    color: white;
+    border: palegoldenrod solid 2px;
+    transition: color 0.0s ease 0s;
+    transition-duration: 0.4s;
+    transition-delay: 0s;
+}
+
+
+/* Copyright */
+
+.copyright-container{
+    text-align: center;
+    border-top: .3rem solid palegoldenrod;
+}
+
+.copyright-icon{
+    margin-right: .1rem;
+    padding: .5px;
+    color: grey;
+}
+
+.copyright-text{
+    color: grey;
+}
