@@ -3,6 +3,7 @@ body .container-fluid {
     padding: 0% 0%;
     margin: 0% 0%!important;
     max-height: max-content;
+    min-width: 1024px;
 }
 
 p {
@@ -21,10 +22,50 @@ a:hover {
     margin: 0% 0%!important;
 }
 
+.container{
+    padding: 0% 0%!important;
+    margin: 0% 0%!important;
+    max-width: none!important;
+}
+
 .row{
     padding: 0% 0%!important;
     margin: 0% 0%!important;
 }
+
+.col-lg-12 {
+    padding: 1rem 1rem;
+    margin: auto auto;
+    width: auto!important;
+}
+
+.col-md-12 {
+    padding: 1rem 1rem;
+    margin: auto auto;
+    width: auto!important;
+}
+.col-sm-12 {
+    padding: 1rem 1rem;
+    margin: auto auto;
+    width: auto!important;
+}
+
+.col-lg-10 {
+    padding: 1rem 1rem;
+    margin: auto auto;
+}
+
+.col-lg-4 {
+    padding: 1rem 1rem;
+    margin: auto auto;
+}
+
+img{
+    height: 350px!important;
+    width: 350px!important;
+    margin: 1rem auto 1rem auto;
+}
+
 /* Navigation Bar */
 
 .navbar {
@@ -37,12 +78,12 @@ a:hover {
 
 .navbar-brand{
     padding: 10px 15px!important;
+    max-width: max-content;
 }
 
 .navbar-toggler{
     width: max-content!important;
     height:  max-content!important;
-    
     text-align: center;
     padding: auto 0px!important;
 }
@@ -64,23 +105,6 @@ a h5:hover {
     transition: color 0.4s ease 0s!important;
     transition-duration: 0.4s!important;
     transition-delay: 0s!important;
-}
-
-.col-lg-12 {
-    padding: 1rem 1rem;
-    margin: auto auto;
-}
-
-.col-lg-10 {
-    padding: 1rem 1rem;
-    margin: auto auto;
-}
-
-
-.image-placeholder{
-    height: 350px!important;
-    width: 350px!important;
-    margin: 1rem auto 1rem auto;
 }
 
 /* About me */
@@ -118,7 +142,7 @@ a h5:hover {
     background-image:url("Assets/Images/pink-roses.jpg");
     background-position: bottom;
     border: .4rem solid palegoldenrod;
-    margin: 10rem 5rem;
+    margin: 4rem 5rem;
     background-size: 50%;
     flex: 0 100%!important;
     padding:2rem 2rem!important;
@@ -137,7 +161,7 @@ a h5:hover {
     height: 330px;
     width: 300px;
     float: left;
-    padding: 0rem .5rem .5rem 0rem;
+    padding: 0rem 2rem 0rem 0rem;
 }
 
 /* Portfolio */
@@ -174,15 +198,15 @@ a h5:hover {
 .portfolio-body-background{
     background-image: url("Assets/Images/pink-flowers.jpg");
     background-position: center;
-    background-size: 80%;
-    min-width: 714px;
+    background-size: cover;
+    min-width: 714px!important;
 }
 
 .portfolio-text-background-border-image{
     background-image:url("Assets/Images/white-roses.jpg");
     background-position: bottom;
     border: .4rem solid palegoldenrod;
-    margin: 10rem 5rem;
+    margin: 4rem 5rem;
     background-size: 50%;
     flex: 0 100%!important;
     padding:2rem 2rem!important;
@@ -200,6 +224,7 @@ a h5:hover {
 
 .portfolio-content-header{
     text-align: center;
+    display: inline-block;
 }
 
 /* Contact */
@@ -222,17 +247,17 @@ a h5:hover {
 
 .contact-container{
     min-width: 714px;
+    margin: 4rem 4rem;
 }
 
 .contact-container hr{
-    background-color:white;
+    background-color:palegoldenrod;
 }
 
 .contact-body-background{
     background-image: url("Assets/Images/single-white-rose.jpg");
-    background-size: 100%;
+    background-size: 90%;
     text-align: center;
-    height: max-content;
     background-position: center;
 }
 
@@ -240,22 +265,18 @@ a h5:hover {
     background-color: transparent;
     border: .2rem solid palegoldenrod;
     height: max-content;
-    margin: 1rem;
+    margin: 4rem 8rem!important;
 }
 
-.contact-header{
+.contact-header h1{
     color: white!important;
     text-shadow: 2px 2px 2px #68001cb4;
     text-align: center;
-   
-}
-
-.contact-hr{
-    background-color: white!important;
 }
 
 .contact-input-box{
     border: palegoldenrod solid 2px;
+    width: 100%!important;
 }
 
 .contact-send-button{
