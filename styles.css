@@ -109,7 +109,8 @@ a h5:hover {
 .aboutMe-body-background{
     background-image: url("Assets/Images/white-flowers.jpg");
     background-position: center;
-    background-size: 70%;
+    background-size: cover;
+    background-repeat: no-repeat;
     min-width: 714px;
 }
 
@@ -232,6 +233,7 @@ a h5:hover {
     background-size: 100%;
     text-align: center;
     height: max-content;
+    background-position: center;
 }
 
 .contact-content-container{
