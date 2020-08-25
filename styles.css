@@ -158,8 +158,8 @@ a h5:hover {
 }
 
 .profile-image{
-    height: 300px;
-    width: 300px;
+    height: 290px!important;
+    width: 300px!important;
     float: left;
     padding: 0rem 2rem 0rem 0rem;
 }
